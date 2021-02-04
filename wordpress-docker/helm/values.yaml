@@ -9,18 +9,18 @@ settings:
 
 mysql:
   port: 3306
-  name: openweb
-  user: openweb
+  name: openweb-pub
+  user: openweb-pub
   password: '!changeMe!'
   rootPassword: '!changeMe!'
   volume:
-    claimName: openweb-database
+    claimName: openweb-pub-database
     size: 8Gi
 
 openweb:
   volume:
-    name: openweb-data
-    claimName: openweb-data
+    name: openweb-pub-data
+    claimName: openweb-pub-data
     size: 10Gi
 
 busybox:
