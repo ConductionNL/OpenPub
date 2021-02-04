@@ -1,10 +1,10 @@
 settings:
   registryBase: docker.io/conduction
-  name: owc
+  name: owc-pub
   pullPolicy: Always
   replicaCount: 1
   env: prod
-  subpath: owc
+  subpath: owc-pub
   domain: zuid-drecht.nl
 
 mysql:
