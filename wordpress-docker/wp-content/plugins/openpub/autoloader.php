@@ -1,6 +1,7 @@
 <?php
 
 namespace OWC\OpenPub\Base;
+require __DIR__ . '/vendor/autoload.php';
 
 class Autoloader
 {
