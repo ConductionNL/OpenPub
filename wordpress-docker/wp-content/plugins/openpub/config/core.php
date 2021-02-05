@@ -51,7 +51,7 @@ return [
             'type'    => 'plugin',
             'label'   => 'Meta Box Group',
             'version' => '1.2.14',
-            'file'    => 'metabox-group/meta-box-group.php',
+            'file'    => 'meta-box-group/meta-box-group.php',
         ],
         [
             'type'  => 'class',
