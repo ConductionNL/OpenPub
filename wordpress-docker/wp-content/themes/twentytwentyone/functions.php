@@ -1,4 +1,5 @@
 <?php
+include_once('extended-cpts/extended-cpts.php');
 /**
  * Functions and definitions
  *

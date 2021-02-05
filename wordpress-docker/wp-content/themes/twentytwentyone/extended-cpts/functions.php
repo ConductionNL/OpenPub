@@ -1,6 +1,5 @@
 <?php
 declare( strict_types=1 );
-include_once('extended-cpts.php');
 
 /**
  * Registers a custom post type.
